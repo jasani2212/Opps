@@ -1,0 +1,15 @@
+D:\Daily\Opps\Opps\OOPS\bin\Debug\net8.0\OOPS.exe
+D:\Daily\Opps\Opps\OOPS\bin\Debug\net8.0\OOPS.deps.json
+D:\Daily\Opps\Opps\OOPS\bin\Debug\net8.0\OOPS.runtimeconfig.json
+D:\Daily\Opps\Opps\OOPS\bin\Debug\net8.0\OOPS.dll
+D:\Daily\Opps\Opps\OOPS\bin\Debug\net8.0\OOPS.pdb
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.AssemblyInfoInputs.cache
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.AssemblyInfo.cs
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.csproj.CoreCompileInputs.cache
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.sourcelink.json
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.dll
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\refint\OOPS.dll
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.pdb
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\OOPS.genruntimeconfig.cache
+D:\Daily\Opps\Opps\OOPS\obj\Debug\net8.0\ref\OOPS.dll

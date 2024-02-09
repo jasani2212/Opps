@@ -1,22 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//Inheritance
 
-class Animal
+using OOPS;
+
+class Program
 {
-    protected void eat()
-    {
-        Console.WriteLine("heyy I can Eat");
-    }
-}
-class Dog : Animal
-{
-    static void Main(string[] args)
+    
+    public static void Main(String[] args)
     {
 
-        Dog obj = new Dog();
+        #region Inheritance
 
-        obj.eat();
+        //Dog obj = new Dog();
 
-        Console.ReadLine();
+        //obj.eat();
+
+        //Console.ReadLine();
+
+        #endregion Inheritance
+
+        #region Polymorphism 
+
+        //method Overloading
+        /* Addition obj = new Addition();
+         obj.Sum(5.5F, 5);*/
+
+        //method Overriding
+        //Multiplication obj = new Multiplication();
+        //obj.Sum(5, 10);
+
+        #endregion
+
+        #region Abstraction
+
+        #endregion Abstraction
+
+
     }
 }
+

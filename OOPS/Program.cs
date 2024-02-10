@@ -4,7 +4,7 @@ using OOPS;
 
 class Program
 {
-    
+
     public static void Main(String[] args)
     {
 
@@ -31,10 +31,22 @@ class Program
         #endregion
 
         #region Abstraction
-        Audi obj = new Audi();
-        obj.drive();
+        //Audi obj = new Audi();
+        //obj.drive();
+        //#endregion Abstraction
         #endregion Abstraction
 
+        #region Constructor
+        //Default Constructor
+        //Expconstructor obj = new Expconstructor();
+
+        //Parameterized Constructor
+        // Expconstructor obj = new Expconstructor(10);
+
+        //Private Constructor
+        //Expconstructor obj = new Expconstructor(10);
+
+        #endregion Constructor
 
     }
 }

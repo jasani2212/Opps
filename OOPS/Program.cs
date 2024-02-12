@@ -52,6 +52,23 @@ class Program
         //Yourinterface obj = new Yourinterface();
         //obj.myMethod();
         #endregion Interface
+
+        #region Partial Class
+        //Employee obj = new Employee();
+        //obj.Empname();
+        //obj.EmpSalary();
+
+        #endregion Partial Class
+
+        #region Static Class
+        //StaticExp.Name = "Nitin";
+        //StaticExp.Display();
+        #endregion Static Class
+
+        #region Sealed Class
+        //SealedExp obj = new SealedExp();
+        //obj.hey();
+        #endregion Sealed Class
     }
 }
 

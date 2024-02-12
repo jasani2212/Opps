@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPS
 {
+    {
     interface Myinterface
     {
         void myMethod();
@@ -17,4 +18,6 @@ namespace OOPS
             Console.WriteLine("heyy how are you");
         }
     }
+}
+
 }

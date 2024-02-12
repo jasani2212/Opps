@@ -48,6 +48,10 @@ class Program
 
         #endregion Constructor
 
+        #region Interface
+        //Yourinterface obj = new Yourinterface();
+        //obj.myMethod();
+        #endregion Interface
     }
 }
 

@@ -9,12 +9,18 @@ class Program
     {
 
         #region Inheritance
-
+        //Single 
         //Dog obj = new Dog();
-
+        //obj.eat2();
         //obj.eat();
 
-        //Console.ReadLine();
+        //hirarchical
+        //C obj = new C();
+        //obj.hirarchical();
+
+        //Multilevel
+        //C obj = new C();    
+        //obj.demo2();
 
         #endregion Inheritance
 
@@ -31,7 +37,7 @@ class Program
         #endregion
 
         #region Abstraction
-        //Audi obj = new Audi();
+        //Car obj = new Audi();
         //obj.drive();
         //#endregion Abstraction
         #endregion Abstraction
@@ -51,6 +57,7 @@ class Program
         #region Interface
         //Yourinterface obj = new Yourinterface();
         //obj.myMethod();
+        //obj.myMethod2();
         #endregion Interface
 
         #region Partial Class

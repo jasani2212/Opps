@@ -105,12 +105,30 @@ class Program
         }*/
 
         //For Each
-       /* int[] a = { 10, 20, 30, 40, 50 };
-        foreach(int i in a)
-        {
-            Console.WriteLine(i);
-        }*/
+        /* int[] a = { 10, 20, 30, 40, 50 };
+         foreach(int i in a)
+         {
+             Console.WriteLine(i);
+         }*/
         #endregion Looping Statements
+
+        #region Datatypes
+     
+       /* {
+            int a = 5;               // integer (whole number)
+            double b = 5.99D;  // floating point number
+            char c = 'D';         // character
+            bool d = true;          // boolean
+            string e = "hey nitin";     // string
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+        }*/
     }
+
+    #endregion Datatypes
+
 }
 

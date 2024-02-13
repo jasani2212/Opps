@@ -76,6 +76,41 @@ class Program
         //SealedExp obj = new SealedExp();
         //obj.hey();
         #endregion Sealed Class
+
+        #region Looping Statements
+        //While loop
+
+        /*int i = 1;
+        while(i<=20)
+        {
+            Console.WriteLine(i+"");
+            i++;
+        }*/
+
+        //Do While Loop
+
+        /*int i = 1;
+        do
+        {
+            Console.WriteLine(i);
+            i--;
+        }
+        while (i<=30);*/
+
+        //For Loop
+
+        /*for(int i = 0; i <=15; i++) 
+        {
+            Console.WriteLine(i);
+        }*/
+
+        //For Each
+       /* int[] a = { 10, 20, 30, 40, 50 };
+        foreach(int i in a)
+        {
+            Console.WriteLine(i);
+        }*/
+        #endregion Looping Statements
     }
 }
 

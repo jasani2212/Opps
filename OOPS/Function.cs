@@ -7,62 +7,39 @@ using System.Threading.Tasks;
 
 namespace OOPS
 {
-    public class FunctionExp
-    {
-        //No Argument and No Return Type
-        public static void main(string[] args)
-        {
-            /* {
-                 Sum();
-             }
-             static void Sum()
+            public class FunctionExp
+            {   
+            //No Argument and No Return Type
+                public static void Sum_NA_NR()
              {
-                 Console.WriteLine("hey nitin");
-             }*/
+               Console.WriteLine("hey nitin");
+             }
 
             //No Argument but Return Value
 
-            /*{
-                int Result = Sum();
-                Console.WriteLine($"Sum is {Result}");
-                Console.ReadKey();
-            }
-            static int Sum()
+            public static int Sum_NA_WR()
             {
-                int x = 10;
+                int x = 10; 
                 int y = 20;
                 int sum = x + y;
                 return sum;
-            }*/
+            }
 
             //Argument but Not Return
-
-            /*{
-                int x = 10, y = 20;
-                Sum(x, y);
-                Console.ReadKey();
-            }
-            static void Sum(int x, int y)
+            public static void Sum_WA_NR(int x, int y)
             {
                 int sum = x + y;
                 Console.WriteLine($"Sum is {sum}");
-            }*/
+            }
 
             //Argument and Return
 
-            /*{
-                int x = 10, y = 20;
-                int Result = Sum(x, y);
-                Console.WriteLine($"Sum is {Result}");
-                Console.ReadKey();
-            }
-            static int Sum(int x, int y)
+            public static int Sum_WA_WR(int x, int y)
             {
                 int sum = x + y;
                 return sum;
-            }*/
+            }
         }
-    }
-}
+   }
     
 

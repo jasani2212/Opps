@@ -6,11 +6,11 @@ using System.Collections.Generic;
 class Program
 {
     //Passed By Value 
-    /* public static void PassedByValue(int a)
-     {
-         a = a + 15;
-         Console.WriteLine(a);
-     }*/
+    /*public static void PassedByValue(int a)
+    {
+        a = a + 15;
+        Console.WriteLine(a);
+    }*/
 
     //Passed By Ref
     /*public static void PassedByRef(ref int a)
@@ -20,25 +20,26 @@ class Program
     }*/
 
     //Passed By Out
-   /* public static void PassedByOut(out int a)
-    {
-        a = 25;
-        Console.WriteLine(a);
-    }*/
+
+    /* public static void PassedByOut(out int a)
+     {
+         a = 25;
+         Console.WriteLine(a);
+     }*/
     public static void Main(String[] args)
     {
         #region PassedBy Value
-        /*int b = 5;
+       /* int b = 5;
         PassedByValue(b);
         Console.WriteLine(b);
         Console.ReadLine();*/
         #endregion PassedBy Value
 
         #region PassedBy Ref
-        /*int b = 5;
+        int b = 5;
         PassedByRef(ref b);
         Console.WriteLine(b);
-        Console.ReadLine();*/
+        Console.ReadLine();
         #endregion PassedBy Ref 
 
         #region PassedBy Out
@@ -172,9 +173,25 @@ class Program
             Console.WriteLine(d);
             Console.WriteLine(e);
         }*/
+        #endregion Datatypes
+
+        #region Function
+        /*FunctionExp.Sum_NA_NR();
+        Console.WriteLine();
+
+        FunctionExp.Sum_WA_NR(10,20);
+        Console.WriteLine();
+
+        int a = FunctionExp.Sum_NA_WR();
+        Console.WriteLine(a);
+
+        int b = FunctionExp.Sum_WA_WR(30,40);
+        Console.WriteLine(b);*/
+
+
+        #endregion Function
     }
 
-    #endregion Datatypes
 
 }
 

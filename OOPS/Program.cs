@@ -1,12 +1,52 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using OOPS;
+using System.Collections.Generic;
 
 class Program
 {
+    //Passed By Value 
+    /* public static void PassedByValue(int a)
+     {
+         a = a + 15;
+         Console.WriteLine(a);
+     }*/
 
+    //Passed By Ref
+    /*public static void PassedByRef(ref int a)
+    {
+        a = a + 15;
+        Console.WriteLine(a);
+    }*/
+
+    //Passed By Out
+   /* public static void PassedByOut(out int a)
+    {
+        a = 25;
+        Console.WriteLine(a);
+    }*/
     public static void Main(String[] args)
     {
+        #region PassedBy Value
+        /*int b = 5;
+        PassedByValue(b);
+        Console.WriteLine(b);
+        Console.ReadLine();*/
+        #endregion PassedBy Value
+
+        #region PassedBy Ref
+        /*int b = 5;
+        PassedByRef(ref b);
+        Console.WriteLine(b);
+        Console.ReadLine();*/
+        #endregion PassedBy Ref 
+
+        #region PassedBy Out
+        /*int n;
+        PassedByOut(out n);
+        Console.WriteLine(n);
+        Console.ReadLine();*/
+        #endregion PassedBy Out
 
         #region Inheritance
         //Single 
@@ -113,13 +153,19 @@ class Program
         #endregion Looping Statements
 
         #region Datatypes
-     
-       /* {
+
+        /*{
             int a = 5;               // integer (whole number)
             double b = 5.99D;  // floating point number
             char c = 'D';         // character
             bool d = true;          // boolean
             string e = "hey nitin";     // string
+            string[] arr = { "nitin", "jasani" }; //Array
+            *//*Dictionary<string,int> dictionary = new Dictionary<string, int>();  
+            dictionary.Add("one", 1);
+            dictionary.Add("two", 2);
+            Console.WriteLine(dictionary);*//*
+            Console.WriteLine(arr[0]);            
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
@@ -131,4 +177,5 @@ class Program
     #endregion Datatypes
 
 }
+
 

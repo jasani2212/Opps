@@ -36,10 +36,10 @@ class Program
         #endregion PassedBy Value
 
         #region PassedBy Ref
-        int b = 5;
+        /*int b = 5;
         PassedByRef(ref b);
         Console.WriteLine(b);
-        Console.ReadLine();
+        Console.ReadLine();*/
         #endregion PassedBy Ref 
 
         #region PassedBy Out
@@ -190,9 +190,12 @@ class Program
 
 
         #endregion Function
+
+        #region Recursion
+        /*RecursionExp obj = new RecursionExp();
+        obj.demoRecursive();*/
+        #endregion Recursion
     }
-
-
 }
 
 

@@ -197,9 +197,16 @@ class Program
         #endregion Recursion
 
         #region Enum
-       /* EnumExp today = EnumExp.Thurseday;
+      /*  int today = (int)EnumExp.Monday;
         Console.WriteLine(today);*/
         #endregion Enum
+
+        #region Dictonary
+        /* Dictionary<string, int> obj = new Dictionary<string, int>();
+         obj.Add("nitin", 10);
+         int value = obj["nitin"];
+         Console.WriteLine(value);*/
+        #endregion Dictionary
     }
 }
 

@@ -29,10 +29,10 @@ class Program
     public static void Main(String[] args)
     {
         #region PassedBy Value
-       /* int b = 5;
-        PassedByValue(b);
-        Console.WriteLine(b);
-        Console.ReadLine();*/
+        /* int b = 5;
+         PassedByValue(b);
+         Console.WriteLine(b);
+         Console.ReadLine();*/
         #endregion PassedBy Value
 
         #region PassedBy Ref
@@ -195,6 +195,11 @@ class Program
         /*RecursionExp obj = new RecursionExp();
         obj.demoRecursive();*/
         #endregion Recursion
+
+        #region Enum
+       /* EnumExp today = EnumExp.Thurseday;
+        Console.WriteLine(today);*/
+        #endregion Enum
     }
 }
 

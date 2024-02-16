@@ -197,8 +197,8 @@ class Program
         #endregion Recursion
 
         #region Enum
-      /*  int today = (int)EnumExp.Monday;
-        Console.WriteLine(today);*/
+        /*  int today = (int)EnumExp.Monday;
+          Console.WriteLine(today);*/
         #endregion Enum
 
         #region Dictonary
@@ -207,7 +207,216 @@ class Program
          int value = obj["nitin"];
          Console.WriteLine(value);*/
         #endregion Dictionary
+
+        #region Continue Statement
+        /*for(int i = 0;i<22;i++)
+        {
+            if(i == 2)
+            {
+                continue;
+            }
+            Console.WriteLine(i);
+        }*/
+        #endregion Continue Statement
+
+        #region Break Statement
+        /* for (int i = 0; i < 5; i++)
+         {
+             if (i == 2)
+             {
+                 break;
+             }
+             Console.WriteLine(i);
+         }*/
+        #endregion Break Statement
+
+        #region Break Statement
+        /*int day = 10; 
+        switch (day)
+        {
+            case 1:
+                Console.WriteLine("Monday");
+                break;
+            case 2:
+                Console.WriteLine("Tuesday");
+                break;
+            default:
+                Console.WriteLine("this is and default day");
+                break;
+        }*/
+        #endregion Break Statement
+
+        #region if_else Statement
+        /*      int x = 20;
+              if (x > 25)
+              {
+                  Console.WriteLine("hey nitin how r u");
+              }
+              else
+              {
+                  Console.WriteLine("Not Fine");
+              }*/
+        #endregion if_else Statement
+
+        #region Arithmetic Operators
+
+        //+ Addition operator
+
+        /* {
+             int x = 5;
+             int y = 3;
+             Console.WriteLine(x + y);
+         }*/
+
+        //- Subtraction operator
+
+        /* {
+             int x = 10;
+             int y = 5;
+             Console.WriteLine(x - y);
+         }*/
+
+        //* Multiplication operator
+
+        /*{
+            int x = 20;
+            int y = 20; 
+            Console.WriteLine(x * y);
+        }*/
+
+        // / Division operator
+        /* {
+             int a = 50;
+             int b = 25;
+             Console.WriteLine(a / b);
+         }*/
+
+        // % Modulus operator
+
+        /*    {
+                int x = 30;
+                int y = 20;
+                Console.WriteLine(x % y);
+            }*/
+
+        // ++ Increment operator
+
+        /*int a = 10;
+        a++;
+        Console.WriteLine(a);*/
+
+        // -- Decrement operator
+
+        /* int a = 23;
+         a--;
+         Console.WriteLine(a);*/
+        #endregion Arithmetic Operators
+
+        #region Assignment Operators
+        // = 
+        /*int n = 22;
+        Console.WriteLine(n);*/
+
+        // +=
+        /* int n = 20;
+         n += 2;
+         Console.WriteLine(n);*/
+
+        // -=
+        /*int n = 24;
+        n -= 2;
+        Console.WriteLine(n);*/
+
+        // *=
+        /*int n = 11;
+        n *= 2;
+        Console.WriteLine(n);*/
+
+        // /=
+        /*int n = 44;
+        n /= 2;
+        Console.WriteLine(n);*/
+
+        // %=
+        /*int n = 44;
+        n %= 22;
+        Console.WriteLine(n);*/
+
+        // &=
+        /*int n = 20;
+        n &= 2;
+        Console.WriteLine(n);*/
+
+        // |=
+        /*int n = 20;
+        n |= 2;
+        Console.WriteLine(n);*/
+
+        // ^=
+        /*int n = 15;
+        n ^= 2;
+        Console.WriteLine(n);*/
+
+        // >>=
+        /* int n = 25;
+         n >>= 2;
+         Console.WriteLine(n);*/
+
+        // <<=
+        /*int n = 25;
+        n <<= 2;
+        Console.WriteLine(n);*/
+        #endregion Assignment Operators
+
+        #region Comparison Operators
+        //==
+        /*int n = 20;
+        int p = 20;
+        Console.WriteLine(n==p);*/
+
+        // !=
+        /*int n = 20;
+        int p = 20;
+        Console.WriteLine(n != p);*/
+
+        // >
+        /* int n = 25;
+         int p = 20;
+         Console.WriteLine(n > p);*/
+
+        // <
+        /*int n = 20;
+        int p = 20;
+        Console.WriteLine(n < p);*/
+
+        // >=
+        /*  int n = 30;
+          int p = 20;
+          Console.WriteLine(n >= p);*/
+
+        // <=
+        /*int n = 30;
+        int p = 20;
+        Console.WriteLine(n <= p);*/
+        #endregion Comparison Operators
+
+        #region Logical Operators
+
+        // && Logical and 
+        /*int n = 20;
+        Console.WriteLine(n > 10 && n < 25); ;*/
+
+        // || Logical or
+        /*int n = 20;
+        Console.WriteLine(n > 10 || n < 30); ;*/
+
+        // ! Logical not
+       /* int n = 20;
+        int r = 10;
+        Console.WriteLine(!(n<r)); ;*/
+        #endregion Logical Operators
     }
 }
+
 
 

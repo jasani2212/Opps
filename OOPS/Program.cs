@@ -411,10 +411,16 @@ class Program
         Console.WriteLine(n > 10 || n < 30); ;*/
 
         // ! Logical not
-       /* int n = 20;
-        int r = 10;
-        Console.WriteLine(!(n<r)); ;*/
+        /* int n = 20;
+         int r = 10;
+         Console.WriteLine(!(n<r)); ;*/
         #endregion Logical Operators
+
+        #region Ternary Operator
+        /*int a = 20;
+        string n = (a < 18) ? "hey nitin" : "everythin is possible";
+        Console.WriteLine(n);*/
+        #endregion Ternary Operator
     }
 }
 

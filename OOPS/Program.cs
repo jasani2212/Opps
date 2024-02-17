@@ -293,11 +293,11 @@ class Program
 
         // % Modulus operator
 
-        /*    {
-                int x = 30;
-                int y = 20;
-                Console.WriteLine(x % y);
-            }*/
+        /*{
+            int x = 30;
+            int y = 20;
+            Console.WriteLine(x % y);
+        }*/
 
         // ++ Increment operator
 
@@ -338,14 +338,14 @@ class Program
         Console.WriteLine(n);*/
 
         // %=
-        /*int n = 44;
-        n %= 22;
-        Console.WriteLine(n);*/
+        /* int n = 5;
+         n %= 3; // n = n%3;
+         Console.WriteLine(n);*/
 
         // &=
-        /*int n = 20;
-        n &= 2;
-        Console.WriteLine(n);*/
+        /*  int n = 20;
+          n &= 2;//n = n&2
+          Console.WriteLine(n);*/
 
         // |=
         /*int n = 20;
@@ -403,7 +403,7 @@ class Program
         #region Logical Operators
 
         // && Logical and 
-        /*int n = 20;
+        /*int n = 5;
         Console.WriteLine(n > 10 && n < 25); ;*/
 
         // || Logical or
@@ -421,6 +421,13 @@ class Program
         string n = (a < 18) ? "hey nitin" : "everythin is possible";
         Console.WriteLine(n);*/
         #endregion Ternary Operator
+
+        #region Employee Salary
+       /* EmployeeFinalSalary emp = new EmployeeFinalSalary();
+        emp.getInfo(5,150);
+        emp.DisplayFinalSalary();*/
+        #endregion Employee Salary
+
     }
 }
 

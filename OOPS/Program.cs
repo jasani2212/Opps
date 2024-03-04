@@ -2,6 +2,8 @@
 
 using OOPS;
 using System.Collections.Generic;
+using System.Linq.Expressions;
+using System.Text;
 
 class Program
 {
@@ -20,19 +22,19 @@ class Program
     }*/
 
     //Passed By Out
-
     /* public static void PassedByOut(out int a)
      {
          a = 25;
          Console.WriteLine(a);
      }*/
+
     public static void Main(String[] args)
     {
         #region PassedBy Value
-        /* int b = 5;
-         PassedByValue(b);
-         Console.WriteLine(b);
-         Console.ReadLine();*/
+        /*  int b = 5;
+          PassedByValue(b);
+          Console.WriteLine(b);
+          Console.ReadLine();*/
         #endregion PassedBy Value
 
         #region PassedBy Ref
@@ -51,9 +53,9 @@ class Program
 
         #region Inheritance
         //Single 
-        //Dog obj = new Dog();
-        //obj.eat2();
-        //obj.eat();
+        /*  Dog obj = new Dog();
+          obj.eat2();
+          obj.eat();*/
 
         //hirarchical
         //C obj = new C();
@@ -95,6 +97,12 @@ class Program
 
         #endregion Constructor
 
+        #region Destructor
+        /*Destructor obj = new Destructor("Nitin", 22);
+        Console.WriteLine(obj.getName());
+        Console.WriteLine(obj.getAge());*/
+        #endregion Destructor
+
         #region Interface
         //Yourinterface obj = new Yourinterface();
         //obj.myMethod();
@@ -109,13 +117,13 @@ class Program
         #endregion Partial Class
 
         #region Static Class
-        //StaticExp.Name = "Nitin";
-        //StaticExp.Display();
+        /* StaticExp.Name = "Nitin";
+         StaticExp.Display();*/
         #endregion Static Class
 
         #region Sealed Class
-        //SealedExp obj = new SealedExp();
-        //obj.hey();
+        /* SealedExp obj = new SealedExp();
+         obj.hey();*/
         #endregion Sealed Class
 
         #region Looping Statements
@@ -423,11 +431,63 @@ class Program
         #endregion Ternary Operator
 
         #region Employee Salary
-       /* EmployeeFinalSalary emp = new EmployeeFinalSalary();
-        emp.getInfo(5,150);
-        emp.DisplayFinalSalary();*/
+        /* EmployeeFinalSalary emp = new EmployeeFinalSalary();
+         emp.getInfo(5,150);
+         emp.DisplayFinalSalary();*/
         #endregion Employee Salary
 
+        #region Var And Dynamic Keyword
+        //VAR
+        /*var a = 10;
+        Console.WriteLine(a.GetType());*/
+
+        /*static void display()
+        {
+            var a = 10;
+        }*/
+
+        //DYNAMIC
+        /* dynamic a = 10;
+         dynamic b = "nitin";
+         Console.WriteLine(a.GetType());
+         Console.WriteLine(b.GetType());*/
+        #endregion Var And Dynamic Keyword
+
+        #region Throw Keyword
+        /*throw new Exception("Something went wrong");*/
+        #endregion Throw Keyword
+
+        #region String And StringBuilder
+        //String
+        /* String str = "Nitin";
+         str += "Jasani";
+         Console.WriteLine(str);*/
+
+        //String Builder
+        /*StringBuilder sb = new StringBuilder();
+        sb.Append("Nitin");
+        sb.Append("Jasani");
+        Console.WriteLine(sb);*/
+        #endregion String And StringBuilder
+
+        #region Array and List
+        //Array
+        /* int[] arr = new int[3];*/
+        //List
+        /*List<int> list = new List<int>();
+        list.Add(1);
+        list.Add(2);
+        list.Add(3);*/
+        #endregion Array And List
+
+        #region HashSet
+        /* HashSet<int> set = new HashSet<int>();
+         set.Add(10);
+         set.Add(20);
+         set.Add(30);
+         set.Add(40);
+         Console.WriteLine(set);*/
+        #endregion HashSet
     }
 }
 
